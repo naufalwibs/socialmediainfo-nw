@@ -1,0 +1,9 @@
+{"_id":{"$oid":"60b21ef5ce38183494db08e3"},"nama_aplikasi":"tiktok","keterangan":"aplikasi platform sosial video pendek yang didukung dengan musik","jumlah_pengguna":10000,"pendiri":"Zhang Yiming","tanggal_didirikan":"1 September 2016","__v":0}
+{"_id":{"$oid":"60b21ef5ce38183494db08e4"},"nama_aplikasi":"facebook","keterangan":"aplikasi layanan jejaring sosial","jumlah_pengguna":20000,"pendiri":"Mark Zuckerberg","tanggal_didirikan":"4 Februari 2004","__v":0}
+{"_id":{"$oid":"60b21ef5ce38183494db08e5"},"nama_aplikasi":"instagram","keterangan":"aplikasi berbagi foto dan video","jumlah_pengguna":30000,"pendiri":"Kevin Systrom","tanggal_didirikan":"6 Oktober 2010","__v":0}
+{"_id":{"$oid":"60b21ef5ce38183494db08e6"},"nama_aplikasi":"whatsapp","keterangan":"aplikasi messaging","jumlah_pengguna":40000,"pendiri":"Jan Koum","tanggal_didirikan":"3 Mei 2009","__v":0}
+{"_id":{"$oid":"60b21ef5ce38183494db08e7"},"nama_aplikasi":"twitter","keterangan":"aplikasi jejaring sosial micro-blogging","jumlah_pengguna":50000,"pendiri":"Jack Dorsey","tanggal_didirikan":"15 Juli 2006","__v":0}
+{"_id":{"$oid":"60b21ef5ce38183494db08e8"},"nama_aplikasi":"tindar","keterangan":"aplikasi dating","jumlah_pengguna":15000,"pendiri":"Zola Pinata","tanggal_didirikan":"15 Oktober 2011","__v":0}
+{"_id":{"$oid":"60b21ef5ce38183494db08e9"},"nama_aplikasi":"tukangin","keterangan":"aplikasi jasa tukang berbasis online","jumlah_pengguna":20000,"pendiri":"Manda Simika","tanggal_didirikan":"11 Januari 1999","__v":0}
+{"_id":{"$oid":"60b21ef5ce38183494db08ea"},"nama_aplikasi":"bargainang","keterangan":"aplikasi platform investasi","jumlah_pengguna":100000,"pendiri":"Maria Berni","tanggal_didirikan":"14 Februari 2013","__v":0}
+{"_id":{"$oid":"60b21ef5ce38183494db08eb"},"nama_aplikasi":"eduedu","keterangan":"aplikasi platform sosial pembelajaran","jumlah_pengguna":200000,"pendiri":"Mistarta Inaya","tanggal_didirikan":"8 September 2015","__v":0}
