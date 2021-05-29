@@ -1,22 +1,17 @@
 const express = require("express");
 const app = express();
-const port = process.env.PORT || 3001;
 const router = require("./routes/index");
-const mongoose = require("mongoose");
-const uri = "mongodb://localhost:27017";
+const cors = require("cors");
+const connectDatabase = require("./config/database");
+const errorHandler = require("./middlewares/errorHandler");
 
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-mongoose
-  .connect(uri)
-  .then((result) => {
-    app.listen(port, () => {
-      console.log(`Listening on Port ${port}`);
-    });
-  })
-  .catch((err) => {
-    console.log(err);
-  });
+connectDatabase();
 
 app.use(router);
+app.use(errorHandler);
+
+module.exports = app;

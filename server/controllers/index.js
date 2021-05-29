@@ -13,7 +13,7 @@ class ControllerApp {
           res.status(200).json(filteredData);
         })
         .catch((err) => {
-          console.log(err);
+          next(err);
         });
     } else {
       SocialMedia.find()
@@ -21,7 +21,7 @@ class ControllerApp {
           res.status(200).json(data);
         })
         .catch((err) => {
-          console.log(err);
+          next(err);
         });
     }
   }
@@ -33,7 +33,7 @@ class ControllerApp {
         res.status(200).json(data);
       })
       .catch((err) => {
-        console.log(err);
+        next(err);
       });
   }
 
@@ -59,7 +59,7 @@ class ControllerApp {
         res.status(201).json(result);
       })
       .catch((err) => {
-        console.log(err);
+        next(err);
       });
   }
 
@@ -86,7 +86,7 @@ class ControllerApp {
         res.status(200).json(result);
       })
       .catch((err) => {
-        console.log(err);
+        next(err);
       });
   }
 
@@ -97,7 +97,7 @@ class ControllerApp {
         res.status(200).json({ message: "Succesfully Deleted!" });
       })
       .catch((err) => {
-        console.log(err);
+        next(err);
       });
   }
 }
